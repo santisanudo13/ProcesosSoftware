@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 
-import usajni.JCript;
+import usajni.JCriptInterface;
 
 
 
@@ -16,7 +16,7 @@ public class CalculaTiempos {
 
 	private Map<Long, Integer> tiempos = new HashMap<Long, Integer>();
 	private List<DatoHistograma> datos = new ArrayList<DatoHistograma>();
-	private final int NUM_EJECUCIONES=313;
+	private static final int NUM_EJECUCIONES=125;
 	
 	public  long mejorTiempoRespuesta;
 	public  long peorTiempoRespuesta;
@@ -25,10 +25,10 @@ public class CalculaTiempos {
 	public  long tiempoRespuestaPorDebajo99con5;
 
 	/**
-	 * Genera 8 criptaciones repetidas por un bucle de 300 iteraciones y a cada criptacion la añade al map
+	 * Genera 8 criptaciones repetidas por un bucle de 313 iteraciones y a cada criptacion la añade al map
 	 * @param criptaLink
 	 */
-	public CalculaTiempos(JCript criptaLink) {
+	public CalculaTiempos(JCriptInterface criptaLink) {
 		System.out.println("Calculado tiempos de criptar 2500 claves. espere porfavor...");
 
 

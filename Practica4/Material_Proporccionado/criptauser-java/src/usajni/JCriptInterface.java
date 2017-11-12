@@ -1,6 +1,6 @@
 package usajni;
 
-public interface JCript {
+public interface JCriptInterface {
 
 	String crypta(String clave, String sal);
 

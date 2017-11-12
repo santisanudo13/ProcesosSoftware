@@ -1,6 +1,6 @@
 package usajni;
 
-public class Jcriptu implements JCript{
+public class Jcriptu implements JCriptInterface{
 
 
 	void minidoWork(long cuentas){

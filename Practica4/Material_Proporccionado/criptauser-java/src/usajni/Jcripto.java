@@ -1,6 +1,6 @@
 package usajni;
 
-public class Jcripto implements JCript{
+public class Jcripto implements JCriptInterface{
 
 	boolean valido(char c){
 		return(	(c >= '.' && c <= '9') ||

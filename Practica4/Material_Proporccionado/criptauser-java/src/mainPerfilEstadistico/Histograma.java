@@ -4,7 +4,10 @@ import java.util.List;
 import perfilEstadistico.*;
 import fundamentos.Grafica;
 import perfilEstadistico.DatoHistograma;
+import usajni.JCriptInterface;
 import usajni.Jcripta;
+import usajni.Jcripto;
+import usajni.Jcriptu;
 
 public class Histograma {
 
@@ -18,7 +21,7 @@ public class Histograma {
 	 */
 	public static void main(String[] args) {
 
-		Jcripta criptaLink = new Jcripta();     //<-- para usar la clase java equivalente
+		JCriptInterface criptaLink = new Jcripta();     //<-- para usar la clase java equivalente
 		CalculaTiempos calcTiempos = new CalculaTiempos(criptaLink);
 
 		System.out.println("\n\n----Dibujando Histograma----\n\n");
